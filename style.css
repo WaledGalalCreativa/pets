@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --title-color: white;
+    --title-color-hover: red;
+      --text-color: #eee;
+  --light-text-color: #777;
+  --text-hover-color: #ec1d25;
+  --text-hover-color-transparent: #ec1d247c;
+  --title-black-color: #222;
+  --mainFont: "Montserrat", sans-serif;
+  --secondaryFont: "Courgette", cursive;
+  --titleFont: "poppins", sans-serif;
+}
+
+
+.navbar {
+    padding: 15px 10%;
+    background: none !important;
+    border-top: 5px solid var(--title-color-hover);
+}
+
+.navbar > .container-fluid > a {
+    width: 10%;
+}
+
+.navbar .container-fluid > .navbar-collapse ul:nth-child(1) {
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.navbar .nav-link {
+    color: var(--title-color) !important;
+}
+.navbar .nav-link:hover {
+    color: var(--title-color-hover) !important;
+}
+.navbar .active {
+    font-weight: bold;
+    color: var(--title-color-hover) !important;
+}
+.navbar .active:hover {
+    color: var(--title-color) !important;
+}
+
+
+/* ---------------------------- ....... Main Section .......................---- */
+
+
+.carousel-caption h5{
+ font-family: var(--secondaryFont);
+ color: var(--text-hover-color);
+}
+
+
+#carouselExampleCaptions {
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+#carouselExampleCaptions .carousel-item {
+  height: 100vh !important;
+  position: relative;
+  overflow: hidden;
+}
+
+#carouselExampleCaptions .carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;       
+  -o-object-fit: cover;
+  transition: transform .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h5 {
+    font-size: 64px;
+    font-family: "Courgette" !important;
+}
+
+.carousel-caption p {
+    font-size: 88px;
+    font-weight: 700;
+    font-family: "Poppins" !important;
+    text-transform: uppercase !important;
+}
+
+.carousel-caption .btn-danger {
+    background-color: var(--title-color);
+    color: var(--title-color-hover);
+    font-family: "poppins";
+    text-transform: uppercase !important;
+    font-size: 14px;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    transition: all 200ms ease-in-out;
+}
+.carousel-caption .btn-danger:hover {
+    background-color: var(--title-color-hover);
+    color: var(--title-color);
+    transition: all 200ms ease-in-out;
+}
+
+
+.carousel-indicators {
+    bottom: 5%;
+}
+
+.carousel-indicators button {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators button.active {
+    border: red 2px solid;
+    transform: translateY(30%);
+    box-sizing: content-box;
+}
+/* ............................... Welcome Section ..................................... */
+.section2italian .section2italian1{
+    font-family: var(--secondaryFont) !important;
+ color: var(--text-hover-color) !important;
+ 
+}
+.section2italian .section2italian2{
+    font-family: var(--mainFont) !important;
+    font-size: 60px !important;
+ 
+ 
+}
+
+.transition {
+  transition: all 0.5s ease;
+}
+.transition:hover {
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
+.btneditt {
+    text-decoration: none;
+}
+.btneditt:hover {
+    color: var(--title-color-hover) !important;
+}
+
+/* ........................ Cards Reg ..................................... */
+
+.card-img-hover {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+.card-img-hover:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-link-hover:hover,
+.card-body h2:hover {
+  color: #ec1d25;
+  cursor: pointer;
+}
+/* ..................... Our Menu ........................... */
+.menuElementActive {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: background-size 0.6s ease, filter 0.3s ease !important; 
+}
+
+.menuElementActive:hover {
+  background-size: 110%; 
+  filter: brightness(110%);
+}
+.bttnn22:hover{
+    background-color: var(--text-hover-color);
+    color: var(--title-color);
+    border: 2px solid red;
+}
+/* ....................  Upcoming Section  ....................... */
+ .countdown {
+  display: flex;
+  justify-content: center;   
+  gap: 50px;
+  margin: 0 auto 20px auto;  
+  max-width: 300px;          
+}
+/* ........................ form section ...............   */
+
+
+.formimage1 img {
+  width: 90% !important;   
+  height: 398px; 
+}
+
+.reservation-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.reservation-img img {
+  transition: transform 0.5s ease;
+}
+
+.reservation-img:hover img {
+  transform: scale(1.1);
+}
+.btnboook1:hover{
+    background-color: var(--text-hover-color) !important;
+    color: var(--bs-light) !important;
+    border: 2px solid red;
+}
+
+.formwidth11{
+  width: 120% !important;
+}
+
+/* ........................  Customers Section  ......................... */
+
+.review-section .arrow-btn {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  /* تظهر عند الـ hover */
+  .review-section:hover .arrow-btn {
+    opacity: 1;
+  }
+
+  /* ......................Video Section ............................ */
+  .video-section .rounded-circle:hover {
+    background-color: var(--text-hover-color) !important;
+    color: #fff !important;
+  }
+  /* ....................... */
+
+   .card img:hover {
+    transform: scale(1.1);
+  }
+  .card-title:hover,
+  .card a:hover {
+    color: #ec1d25 !important;
+  }
+  /* .................. */
+.galaryy11 img{
+    height: 70px;
+    width: 200px;
+}
+.gallery-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.5); /* اللون الأحمر مع شفافية */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+.iconbottomfooter i:hover{
+    color: var(--title-color-hover) !important;
+}

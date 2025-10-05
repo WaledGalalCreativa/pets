@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/bs5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <!-- ................... NAV BAR ............................ -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo2.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ............... MAIN PAGES ......................... -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img
+            src="img/slide1-01.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>First Welcome</h5>
+            <p>Pato 1</p>
+            <div class="btn btn-danger">Click here</div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="img/slide1-02.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>Second Welcome</h5>
+            <p>Pato 2</p>
+            <div class="btn btn-danger">Click here</div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="img/slide1-03.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>Third Welcome</h5>
+            <p>Pato 3</p>
+            <a href="#" class="btn btn-danger">Click here</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- ...................... WELCOME SECTION ....................................... -->
+
+    <section
+      class="py-5"
+      style="background-image: url('img/pattern2.png'); background-size: cover"
+    >
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 text-center section2italian">
+            <h2 class="fw-light fs-3 text-primary mb-2 section2italian1 ">Italian Restaurant</h2>
+            <h2 class="fw-bold text-uppercase display-5 mb-3 section2italian2">Welcome</h2>
+            <p class="text-muted fs-6 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.
+            </p>
+            <a
+              href="#"
+              class="btn btn-link text-dark text-uppercase fw-semibold px-4 btneditt"
+            >
+              Our story <i class="fa-solid fa-arrow-right ms-2"></i>
+            </a>
+          </div>
+
+          <!-- الصورة -->
+          <div class="col-lg-6 text-center">
+            <div
+              class="rounded overflow-hidden mx-auto"
+              style="width: 390px; height: 390px"
+            >
+              <img
+                src="img/our-story-01.jpg"
+                alt="Our story"
+                class="img-fluid h-100 w-100 object-fit-cover transition"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- ...................  Discover res  .................... -->
+
+      <section class="d-flex align-items-center justify-content-center text-center text-white"
+         style="background-image: url('/img/bg-intro-01.jpg'); background-attachment: fixed; height: 450px; background-size: cover; background-position: center;">
+  <div>
+    <h3 class="text-danger fs-3 fw-normal text-uppercase" style="letter-spacing: 5px; font-family: var(--secondaryFont);">
+      Discover
+    </h3>
+    <h2 class="fs-1 fw-bold text-uppercase mt-n2" 
+        style="letter-spacing: 10px; word-spacing: 10px; font-family: var(--mainFont);">
+      Pato Place
+    </h2>
+  </div>
+</section>
+
+<!-- ................. Cards Reg  ....................... -->
+
+<section class="container my-5">
+  <div class="row g-4 text-center">
+
+    <!-- Card 1 -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card border-0 h-100">
+        <div class="overflow-hidden rounded-3">
+          <img src="/img/intro-01.jpg" class="img-fluid card-img-hover" alt="Romantic Restaurant">
+        </div>
+        <div class="card-body text-start">
+          <h2 class="text-uppercase fw-medium mb-2">Romantic Restaurant</h2>
+          <p class="opacity-75 mb-2">
+            Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+          </p>
+          <p class="fw-semibold text-uppercase text-dark card-link-hover mb-0  btneditt">
+            Learn More &ThinSpace; <i class="fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card border-0 h-100">
+        <div class="overflow-hidden rounded-3">
+          <img src="/img/intro-02.jpg" class="img-fluid card-img-hover" alt="Delicious Food">
+        </div>
+        <div class="card-body text-start">
+          <h2 class="text-uppercase fw-medium mb-2">Delicious Food</h2>
+          <p class="opacity-75 mb-2">
+            Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna
+          </p>
+          <p class="fw-semibold text-uppercase text-dark card-link-hover mb-0  btneditt">
+            Learn More &ThinSpace; <i class="fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card border-0 h-100">
+        <div class="overflow-hidden rounded-3">
+          <img src="/img/intro-04.jpg" class="img-fluid card-img-hover" alt="Red Wines You Love">
+        </div>
+        <div class="card-body text-start">
+          <h2 class="text-uppercase fw-medium mb-2">Red Wines You Love</h2>
+          <p class="opacity-75 mb-2">
+            Sed ornare ligula eget tortor tempor, quis porta tellus dictum.
+          </p>
+          <p class="fw-semibold text-uppercase text-dark card-link-hover mb-0  btneditt">
+            Learn More &ThinSpace; <i class="fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ................................ our menu ..........................  -->
+
+<section class="ourMenu py-5 text-center" 
+         style="background-image: url('../img/pattern2.png'); background-size: cover; background-position: center;">
+  <div class="container">
+
+    <!-- العناوين -->
+    <h1 class="fs-3 fw-light text-danger mb-2" style="font-family: var(--secondaryFont);">
+      Discover
+    </h1>
+    <h1 class="fs-1 fw-bold text-uppercase mb-5" style="letter-spacing: 8px; font-family: var(--titleFont);">
+      Our Menu
+    </h1>
+
+    <!-- الجزء الخاص بالتقسيمة -->
+    <div class="row g-3">
+
+      <!-- Lunch -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menuElementActive d-flex align-items-center justify-content-center"
+             style="background-image: url('../img/our-menu-01.jpg'); height: 400px;">
+          <a href="#" class="btn btn-light fw-semibold text-uppercase px-4 py-3 bttnn22">Lunch</a>
+        </div>
+      </div>
+
+      <!-- Dinner -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menuElementActive d-flex align-items-center justify-content-center"
+             style="background-image: url('../img/our-menu-05.jpg'); height: 400px;">
+          <a href="#" class="btn btn-light fw-semibold text-uppercase px-4 py-3 bttnn22">Dinner</a>
+        </div>
+      </div>
+
+      <!-- Drink + Starters تحت بعض -->
+      <div class="col-lg-4 col-md-12 d-flex flex-column gap-3">
+        <div class="menuElementActive d-flex align-items-center justify-content-center flex-fill"
+             style="background-image: url('../img/our-menu-08.jpg'); height: 195px;">
+          <a href="#" class="btn btn-light fw-semibold text-uppercase px-4 py-3 bttnn22">Drink</a>
+        </div>
+        <div class="menuElementActive d-flex align-items-center justify-content-center flex-fill"
+             style="background-image: url('../img/our-menu-10.jpg'); height: 195px;">
+          <a href="#" class="btn btn-light fw-semibold text-uppercase px-4 py-3 bttnn22">Starters</a>
+        </div>
+      </div>
+
+      <!-- Happy Hour -->
+      <div class="col-lg-8 col-md-12">
+        <div class="menuElementActive d-flex align-items-center justify-content-center"
+             style="background-image: url('../img/our-menu-13.jpg'); height: 220px;">
+          <a href="#" class="btn btn-light fw-semibold text-uppercase px-4 py-3 bttnn22">Happy Hour</a>
+        </div>
+      </div>
+
+      <!-- Desert -->
+      <div class="col-lg-4 col-md-12">
+        <div class="menuElementActive d-flex align-items-center justify-content-center"
+             style="background-image: url('../img/our-menu-16.jpg'); height: 220px;">
+          <a href="#" class="btn btn-light fw-semibold text-uppercase px-4 py-3 bttnn22">Desert</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ........................... Upcoming Section ............................... -->
+
+<section class="events-section py-5 text-white text-center" 
+         style="background: url('img/bg-event-04.jpg') center/cover no-repeat fixed;">
+  <div class="container">
+    
+    <!-- العناوين -->
+    <div class="events-header mb-5">
+      <h3 class="sub-title text-danger fw-bold mb-2">Upcomming</h3>
+      <h2 class="title text-uppercase fw-bold display-5">Events</h2>
+    </div>
+
+    <!-- المحتوى -->
+    <div class="row g-0 justify-content-center align-items-stretch">
+      
+      <!-- صورة -->
+      <div class="col-lg-6 position-relative">
+        <img src="img/event-01.jpg" alt="Event Image" class="img-fluid h-100 w-100 rounded-start object-fit-cover">
+        <div class="event-date bg-danger text-white fw-bold d-flex align-items-center justify-content-center 
+                    position-absolute top-0 start-0 h-100 px-2" 
+             style="writing-mode: vertical-rl; text-orientation: mixed; border-radius:12px 0 0 12px;">
+          08:00 PM Tuesday - 21 November 2018
+        </div>
+      </div>
+
+      <!-- تفاصيل -->
+      <div class="col-lg-6 bg-white text-dark p-4 rounded-end d-flex flex-column justify-content-center">
+        <h3 class="fw-bold mb-3">WINES DURING SPECIFIC NIGHTS</h3>
+        <p class="text-muted small mb-4">
+          Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est.
+          Sed fringilla, nunc sed imperdiet lacinia
+        </p>
+
+        <!-- Countdown -->
+        <div class="countdown d-flex justify-content-between text-center mb-4">
+          <div><span class="d-block fs-4 fw-bold text-danger">25</span><small>Days</small></div>
+          <div><span class="d-block fs-4 fw-bold text-danger">12</span><small>Hours</small></div>
+          <div><span class="d-block fs-4 fw-bold text-danger">59</span><small>Minutes</small></div>
+          <div><span class="d-block fs-4 fw-bold text-danger">40</span><small>Seconds</small></div>
+        </div>
+
+        <a href="#" class="btn btn-link text-dark fw-semibold text-decoration-none btneditt">View Details →</a>
+      </div>
+    </div>
+
+    <!-- النقاط -->
+    <div class="d-flex justify-content-center gap-2 mt-5">
+      <span class="dot bg-danger rounded-circle" style="width:12px; height:12px;"></span>
+      <span class="dot bg-secondary rounded-circle" style="width:12px; height:12px;"></span>
+      <span class="dot bg-secondary rounded-circle" style="width:12px; height:12px;"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ....................... Reservation Book Table  ........................ -->
+
+<section class="reservation-section p-5" style="background:url('../img/pattern1.png') center/cover no-repeat fixed;">
+  <div class="container" style="max-width:80%; margin:0 auto;">
+    <div class="row align-items-start justify-content-between g-5">
+
+      <!-- Reservation Form -->
+      <div class="col-lg-5 col-md-6">
+        <h3 class="sub-title text-danger fw-semibold mb-2">Reservation</h3>
+        <h2 class="title text-uppercase fw-bold mb-4" style="letter-spacing:12px;">Book Table</h2>
+
+        <form class="row g-3 text-start formwidth11">
+          <!-- Date + Name -->
+          <div class="col-md-6">
+            <label for="date" class="form-label fw-semibold">Date</label>
+            <input type="date" id="date" name="date" class="form-control rounded-3" />
+          </div>
+          <div class="col-md-6">
+            <label for="name" class="form-label fw-semibold">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" class="form-control rounded-3" />
+          </div>
+
+          <!-- Time + Phone -->
+          <div class="col-md-6">
+            <label for="time" class="form-label fw-semibold">Time</label>
+            <select id="time" name="time" class="form-select rounded-3">
+              <option>9:00</option>
+              <option>10:00</option>
+              <option>11:00</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="phone" class="form-label fw-semibold">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Your Phone" class="form-control rounded-3" />
+          </div>
+
+          <!-- People + Email -->
+          <div class="col-md-6">
+            <label for="people" class="form-label fw-semibold">People</label>
+            <select id="people" name="people" class="form-select rounded-3">
+              <option>1 person</option>
+              <option>2 people</option>
+              <option>3 people</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label fw-semibold">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" class="form-control rounded-3" />
+          </div>
+
+          <!-- Button -->
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-dark px-4 py-2 rounded-3 fw-semibold text-uppercase btnboook1">
+              Book Table
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Reservation Image -->
+      <div class="col-lg-6 col-md-6">
+        <div class="reservation-img overflow-hidden rounded-3 formimage1">
+          <img src="/img/booking-01.jpg" alt="Restaurant Table" class="img-fluid rounded-3 w-100" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- .......................Customers Section ....................... -->
+
+<!-- Review Section -->
+<section class="review-section py-5 bg-white text-center position-relative">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="mb-5">
+      <h3 class="text-danger fw-semibold">Customers Say</h3>
+      <h2 class="fw-bold text-uppercase" style="letter-spacing:12px;">Review</h2>
+    </div>
+
+    <!-- Review Content -->
+    <div class="mx-auto" style="max-width:700px;">
+      <div class="mb-4">
+        <img src="/img/avatar-01.jpg" alt="Customer"
+             class="rounded-circle border border-4 border-danger"
+             style="width:120px; height:120px; object-fit:cover;">
+      </div>
+      <p class="fst-italic text-muted fs-5">
+        “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenean tellus sem, mattis in pretium nec, fermentum viverra dui ”
+      </p>
+      <div class="text-danger fs-4 mb-2">★★★★★</div>
+      <p class="fw-semibold text-secondary">MARIE SIMMONS - NEW YORK</p>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="arrow-btn btn btn-danger rounded-circle position-absolute top-50 start-0 translate-middle-y d-none d-md-flex justify-content-center align-items-center"
+            style="width:60px; height:60px;">
+      <i class="fa-solid fa-chevron-left fs-3"></i>
+    </button>
+    <button class="arrow-btn btn btn-danger rounded-circle position-absolute top-50 end-0 translate-middle-y d-none d-md-flex justify-content-center align-items-center"
+            style="width:60px; height:60px;">
+      <i class="fa-solid fa-chevron-right fs-3"></i>
+    </button>
+
+    <!-- Dots -->
+    <div class="d-flex justify-content-center mt-4">
+      <span class="d-inline-block bg-danger rounded-circle me-2" style="width:12px; height:12px;"></span>
+      <span class="d-inline-block bg-secondary rounded-circle me-2" style="width:12px; height:12px;"></span>
+      <span class="d-inline-block bg-secondary rounded-circle" style="width:12px; height:12px;"></span>
+    </div>
+  </div>
+</section>
+
+<!-- .........................Video Section .................................-->
+<section class="video-section d-flex align-items-center justify-content-center text-center position-relative py-5"
+         style="background: url('../img/bg-cover-video-02.jpg') center/cover no-repeat fixed; height: 500px;">
+  <div class="text-white">
+    <h3 class="text-danger fw-semibold mb-2">Discover</h3>
+    <h2 class="fw-bold text-uppercase mb-4" style="letter-spacing: 12px; font-size: 45px;">
+      Our Video
+    </h2>
+    <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-white text-dark"
+         style="width:70px; height:70px; font-size:28px; cursor:pointer; transition:all 0.3s;">
+      <i class="fa-solid fa-play"></i>
+    </div>
+  </div>
+</section>
+<!-- ......................................... -->
+
+<!-- Blog Section -->
+<section class="py-5">
+  <div class="text-center mb-5">
+    <h3 class="text-danger fw-semibold mb-2">Latest News</h3>
+    <h2 class="fw-bold text-uppercase" style="letter-spacing: 12px; font-size: 45px;">
+      The Blog
+    </h2>
+  </div>
+
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+      
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative overflow-hidden rounded-3">
+            <img src="/img/blog-01.jpg" class="card-img-top" alt="card1" style="height:250px; object-fit:cover; transition:transform 0.4s;">
+            <div class="position-absolute bottom-0 start-0 mb-2 ms-2 px-3 py-1 bg-dark bg-opacity-50 text-white rounded">
+              21 Dec 2017
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title text-uppercase fw-semibold">Romantic Restaurant</h5>
+            <p class="card-text opacity-75">
+              Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+            </p>
+            <a href="#" class="fw-bold text-decoration-none text-dark text-uppercase">
+              Learn More &ThinSpace; <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative overflow-hidden rounded-3">
+            <img src="/img/blog-02.jpg" class="card-img-top" alt="card2" style="height:250px; object-fit:cover; transition:transform 0.4s;">
+            <div class="position-absolute bottom-0 start-0 mb-2 ms-2 px-3 py-1 bg-dark bg-opacity-50 text-white rounded">
+              21 Dec 2017
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title text-uppercase fw-semibold">Romantic Restaurant</h5>
+            <p class="card-text opacity-75">
+              Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+            </p>
+            <a href="#" class="fw-bold text-decoration-none text-dark text-uppercase">
+              Learn More &ThinSpace; <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative overflow-hidden rounded-3">
+            <img src="/img/blog-03.jpg" class="card-img-top" alt="card3" style="height:250px; object-fit:cover; transition:transform 0.4s;">
+            <div class="position-absolute bottom-0 start-0 mb-2 ms-2 px-3 py-1 bg-dark bg-opacity-50 text-white rounded">
+              21 Dec 2017
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title text-uppercase fw-semibold">Romantic Restaurant</h5>
+            <p class="card-text opacity-75">
+              Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+            </p>
+            <a href="#" class="fw-bold text-decoration-none text-dark text-uppercase">
+              Learn More &ThinSpace; <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ................................. -->
+<!-- Subscribe Section -->
+<!-- Subscribe Section -->
+<section class="py-5 text-center" 
+         style="background: url('../img/pattern1.png') center/cover no-repeat; height: 170px;">
+  <div class="container">
+    <div class="row justify-content-center align-items-center g-4">
+      
+      <!-- النص -->
+      <div class="col-lg-4 col-md-12 ">
+        <p class="fs-1 fw-semibold mb-0 specialsign11">SPECIALS SIGN UP</p>
+      </div>
+
+      <!-- الفورم -->
+      <div class="col-lg-6 col-md-12">
+        <form class="d-flex flex-wrap justify-content-center gap-2">
+          <div class="input-group" style="max-width: 300px;">
+            <input type="email" class="form-control border-0 rounded-start-3" 
+                   placeholder="Email Address" required>
+            <span class="input-group-text bg-white border-0 rounded-end-3">
+              <i class="fas fa-envelope text-secondary"></i>
+            </span>
+          </div>
+          <button type="submit" class="btn btn-dark rounded-3 px-4  ">
+            SIGN-UP
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ................................... -->
+
+
+<footer class="bg-dark text-light pt-5">
+  <div class="container">
+    <div class="row gy-5">
+      
+      <!-- Contact Us -->
+      <div class="col-lg-4 col-md-6">
+        <h4 class="mb-5">CONTACT US</h4>
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <i class="fas fa-map-marker-alt me-2"></i> 
+            8th floor, 379 Hudson St, New York, NY 10018
+          </li>
+          <li class="mb-3"><i class="fas fa-phone me-2"></i> (+1) 96 716 6879</li>
+          <li class="mb-5"><i class="fas fa-envelope me-2"></i> contact@site.com</li>
+        </ul>
+        <div class="mt-4">
+          <h4 class="mb-4">OPENING TIMES</h4>
+          <p class="mb-1 text-secondary">09:30 AM - 11:00 PM</p>
+          <p class="mb-0 text-secondary">Every Day</p>
+        </div>
+      </div>
+
+      <!-- Latest Twitter -->
+      <div class="col-lg-4 col-md-6">
+        <h4 class="mb-4">LATEST TWITTER</h4>
+        <div class="mb-4">
+          <p class="text-danger fw-bold mb-1"><i class="fab fa-twitter me-2"></i>@colorlib</p>
+          <p class="mb-1 text-secondary">
+            Activelio is a good option. It has a slider built the featured image in the slider.
+          </p>
+          <a href="#" class="text-danger d-block">https://buff.ly/2xax6fAQ</a>
+          <span class="text-muted small d-block mt-2">21 Dec 2017</span>
+        </div>
+        <div>
+          <p class="text-danger fw-bold mb-1"><i class="fab fa-twitter me-2"></i>@colorlib</p>
+          <p class="mb-1 text-secondary">
+            Activelio is a good option. It has a slider built the featured image in the slider.
+          </p>
+          <a href="#" class="text-danger d-block">https://buff.ly/2xax6fAQ</a>
+          <span class="text-muted small d-block mt-2">21 Dec 2017</span>
+        </div>
+      </div>
+
+      <!-- Gallery -->
+      <div class="col-lg-4 col-md-12">
+        <h4 class="mb-4">GALLERY</h4>
+        <div class="row g-2 galaryy11 ">
+          <div class="col-4 gallery-item  ">
+            <a href="#"><img src="/img/photo-gallery-01.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-02.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-03.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-04.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-05.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-06.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-07.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item ">
+            <a href="#"><img src="/img/photo-gallery-08.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-09.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-10.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-11.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+          <div class="col-4 gallery-item">
+            <a href="#"><img src="/img/photo-gallery-12.jpg" class="img-fluid rounded" alt="Gallery"></a>
+               <div class="overlay"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="bg-black py-3 mt-5">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <div class="d-flex gap-3 iconbottomfooter">
+        <a href="#" class="text-light"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="mb-0 small text-secondary">
+        Copyright © 2018 All rights reserved | This template is made with ❤️ by Colorlib
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+    <script src="/bs5.js"></script>
+  </body>
+</html>
